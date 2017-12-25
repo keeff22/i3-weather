@@ -2,7 +2,7 @@
 install `php` to run.
 edit `run.php` to change your API key, location and other options.
 get your api key from [OpenWeatherMap.org](https://home.openweathermap.org/users/sign_up)
-
+you may also need to install `fontawesome-webfont.ttf` to your fonts folder in order to display the icons properly.
 |functions|parameters|
 |:---:|:---:|
 |degrees(unit,data,spacer)|display degrees in selected unit / unit: 0-K 1-°C 2-°F, data: array, spacer: bool |
