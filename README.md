@@ -1,7 +1,7 @@
 # i3-weather
 install `php` to run.
 edit `run.php` to change your API key, location and other options.
-get your api key from [OpenWeatherMap.org](https://home.openweathermap.org/users/sign_up)
+get your api key from [OpenWeatherMap.org](https://home.openweathermap.org/users/sign_up).
 you may also need to install `fontawesome-webfont.ttf` to your fonts folder in order to display the icons properly.
 
 |functions|parameters|
