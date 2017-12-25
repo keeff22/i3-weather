@@ -2,10 +2,10 @@
 	Class I3Weather
 	{
 		private function kel2cel($kel) {
-			return ($kel - 273.15) . " °C";
+			return round($kel - 273.15) . " °C";
 		}
 		private function kel2fah($kel) {
-			return ($kel * (9/5) - 459.67) . " °F";
+			return round($kel * (9/5) - 459.67) . " °F";
 		}
 		private function kel($kel) {
 			return $kel . " K";
