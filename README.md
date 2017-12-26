@@ -9,7 +9,11 @@ you may also need to install `fontawesome-webfont.ttf` to your fonts folder in o
 |degrees(unit,data,spacer)|display degrees in selected unit / unit: 0-K 1-°C 2-°F, data: array, spacer: bool |
 |icon(data,icons,spacer)|display weather type icon / data: array, icons: array, spacer: bool |
 |description(data,short,spacer)|description of weather type / data: array, short: bool, spacer: bool|
-
+### config/installation
+move the `.i3weather.php` dotfile to your desired loaction (looking at ~/ by default)
+```
+mv .i3weather ~/
+```
 edit your `i3blocks.conf` file and add the following:
 ```
 [weather]
